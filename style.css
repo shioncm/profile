@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+body {
+    background-color: #f6f4fd;
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5eb6be;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-top: 16px;
+    color: #001813;
+}
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.link-button {    
+    border: none;
+    padding: 9px 40px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #05BECD; /* color: #0077ff; */
+    background-color: #dcd4f0;/* background-color: #e0efff; */
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+}
+
+.card-details {
+    padding: 16px 8px 8px 8px;
+}
+
+.link-button:focus, .link-button:hover {
+  background-color: #05BECD;
+  color: #dcd4f0;
+}
